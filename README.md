@@ -1,40 +1,17 @@
 # react-native-image-rotate
 
-This project supports react-native >= 0.40.0
+本项目基于 [react-native-image-rotate](https://github.com/dgladkov/react-native-image-rotate)
 
-This module is meant to be used together with react-native's
-[ImageEditor](https://github.com/facebook/react-native/blob/master/Libraries/Image/ImageEditor.js)
-to create full-featured crop tool
+## 文档地址 / Documentation URL 
 
-## Installation
+[中文 / Chinese](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-cn/react-native-image-rotate.md)
 
-First install the package via npm
+## Codegen
 
-`$ npm install react-native-image-rotate`
+该库已接入 codegen，具体请查阅文档。
 
-then use [rnpm](https://github.com/rnpm/rnpm) to link native libraries
+The library has been integrated with codegen. Please refer to the documentation for details.
 
-`$ react-native link react-native-image-rotate`
+## 请悉知 / Acknowledgements
 
-## Usage
-
-Package exposes only one class that contains one method with following signature:
-
-```javascript
-
-static rotateImage(
-    uri: string,
-    angle: number,
-    success: (uri: string) => void,
-    failure: (error: Object) => void
-  ) : void
-```
-
-## Example
-
-Check the [Example directory](https://github.com/dgladkov/react-native-image-rotate/tree/master/Example)
-for a working iOS/Android example
-
-## License
-
-MIT
+本项目基于 [The MIT License (MIT)](https://github.com/dgladkov/react-native-image-rotate/blob/master/LICENSE) ，请自由地享受和参与开源。
