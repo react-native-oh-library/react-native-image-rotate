@@ -3,9 +3,9 @@
  * @flow
  */
 'use strict';
-import { NativeModules } from 'react-native';
+import { TurboModuleRegistry } from 'react-native';
 
-const RCTImageRotateModule = NativeModules.ImageRotateModule;
+const RCTImageRotateModule = TurboModuleRegistry.get('ImageRotateNativeModule');
 
 export default class ImageRotate {
   /**

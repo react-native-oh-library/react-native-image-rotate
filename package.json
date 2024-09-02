@@ -1,6 +1,6 @@
 {
-  "name": "react-native-image-rotate",
-  "version": "2.1.0",
+  "name": "@react-native-oh-tpl/react-native-image-rotate",
+  "version": "2.1.0-0.0.1",
   "description": "Rotate images from your react-native JavaScript code",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dgladkov/react-native-image-rotate.git"
+    "url": "git+https://github.com/dgladkov/react-native-oh-library/react-native-image-rotate.git"
+  },
+  "harmony": {
+    "alias": "react-native-image-rotate",
+    "codegenConfig": {
+      "specPaths": [
+        "./src"
+      ]
+    }
   },
   "keywords": [
     "react-native",
@@ -19,7 +27,8 @@
     "ios",
     "android",
     "image",
-    "rotate"
+    "rotate",
+    "harmony"
   ],
   "author": {
     "name": "Dmitry Gladkov",
